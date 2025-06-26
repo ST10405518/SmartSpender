@@ -157,6 +157,15 @@ SmartSpender/
 
 ## 📸 Screenshots
 <img width="454" alt="login:sign up light mode" src="https://github.com/user-attachments/assets/b322f8d4-2e21-4ed9-873a-6034a52ae50f" />
+<img width="489" alt="login:sign up dark" src="https://github.com/user-attachments/assets/600a6f76-a89f-4087-827f-660631b32636" />
+<img width="438" alt="Create Account: light" src="https://github.com/user-attachments/assets/e96a8390-01d7-4a0c-9cac-382d1f359ee6" />
+<img width="436" alt="create account : dark" src="https://github.com/user-attachments/assets/82a46196-e69e-427d-8b9d-0e60e41af94a" />
+<img width="440" alt="add expense: light" src="https://github.com/user-attachments/assets/b702f79c-f63f-45c2-8f68-8114eb3d5377" />
+<img width="481" alt="add expense:dark" src="https://github.com/user-attachments/assets/422f2ffd-5154-481d-96b3-8b701647bbb8" />
+
+
+
+
 
 *(See screenshots folder or demo video)*
 
