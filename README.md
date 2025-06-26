@@ -162,12 +162,16 @@ SmartSpender/
 <img width="436" alt="create account : dark" src="https://github.com/user-attachments/assets/82a46196-e69e-427d-8b9d-0e60e41af94a" />
 <img width="440" alt="add expense: light" src="https://github.com/user-attachments/assets/b702f79c-f63f-45c2-8f68-8114eb3d5377" />
 <img width="481" alt="add expense:dark" src="https://github.com/user-attachments/assets/422f2ffd-5154-481d-96b3-8b701647bbb8" />
+<img width="456" alt="rewards point: light" src="https://github.com/user-attachments/assets/44a97750-76de-4787-8343-6df45bc84ff8" />
+<img width="428" alt="rewards points: dark" src="https://github.com/user-attachments/assets/55165893-47e2-409f-b5ae-5309c8a21a03" />
 
 
 
 
 
-*(See screenshots folder or demo video)*
+
+
+*(See full screenshots folder or demo video for more)*
 
 ---
 
