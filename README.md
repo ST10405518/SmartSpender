@@ -1,124 +1,185 @@
----
 
-# SmartSpender App (Kotlin + RoomDB)
 
-## 📱 Overview
+# 💸 SmartSpender App — *Part 3*
 
-The **SmartSpender App** is a fully offline Android application built with Kotlin and RoomDB, helping users track expenses, manage categories, and set monthly financial goals. Users can log in, add expenses with optional photos, and monitor their spending over custom periods. All amounts are displayed in South African Rand (R).
+> 📱 **Your personal offline budgeting and expense manager with built-in motivation tools**
 
 ---
 
-## ✅ Features
+## 📖 Overview
 
-* **User Authentication**
+SmartSpender is an easy-to-use, offline **Android mobile app** designed to help people track their personal expenses, set monthly spending goals, and develop healthier financial habits.
 
-  * Log in securely with a username and password.
+It provides a clear, friendly interface where users can log expenses, categorize them, view their financial progress, and get rewarded for good money management behavior — **all in South African Rands (R)**.
 
-* **Category Management**
-
-  * Create and manage spending categories.
-
-* **Expense Tracking**
-
-  * Add expenses with:
-
-    * Date
-    * Start and End Time
-    * Description
-    * Category
-    * Optional photo attachment
-
-* **Goal Setting**
-
-  * Set minimum and maximum monthly spending limits.
-
-* **Expense Reports**
-
-  * View all expenses within a selected date range.
-  * Access photos attached to expenses.
-  * Analyze total spending per category.
-
-* **Offline Data Storage**
-
-  * Fully local persistence using **RoomDB (SQLite)**.
-
-* **User-Friendly Interface**
-
-  * Clean layout with input validation to prevent errors and crashes.
+The app was built using **Kotlin** and **RoomDB (SQLite)**, ensuring secure, local storage of financial data without requiring an internet connection.
 
 ---
 
-## 🛠 Tech Stack
+## 🎯 Project Purpose
 
-* **Language:** Kotlin
-* **IDE:** Android Studio
-* **Database:** Room (SQLite)
-* **UI Design:** XML layouts
-* **Authentication:** Local username-password validation
-* **Photo Handling:** Internal storage for expense images
+In South Africa (and globally), people often struggle to stick to budgets or track where their money goes. SmartSpender addresses this problem by making financial management:
 
----
-
-## 🔧 Installation & Running
-
-1. **Download** or **clone** the project.
-2. **Open** in **Android Studio**.
-3. Allow **Gradle** to sync dependencies.
-4. **Build and run** on an emulator or Android device.
-5. Log in or create a user and start tracking expenses!
+* **Simple** — clean layouts and easy navigation
+* **Offline** — all data stored locally, no internet needed
+* **Motivating** — with gamification features like badges, points, and real-time feedback
+* **Visually insightful** — with a SmartPulse™ graph showing your financial habits over time
 
 ---
 
-## 💡 Additional Notes
+## 📌 What’s New in Part 3
 
-* All monetary values are displayed in **South African Rand (R)**.
-* The app is fully functional offline.
-* Photos are stored securely in the device’s internal storage.
+In this final project phase, we added exciting new features based on feedback and practical usability improvements:
+
+### 🌗 Dark Mode / Light Mode
+
+* Users can now **switch between a dark theme and a light theme** based on personal preference or lighting conditions.
+* The app saves this preference automatically and remembers it every time you open it.
 
 ---
 
-## 📂 Folder Structure
+### 🔔 Notification Center
 
-```bash
+* A new **Notification Tab** allows users to view helpful financial notifications.
+* These include:
+
+  * Alerts about overspending
+  * Reminders of daily expenses
+  * Progress toward monthly budget goals
+* It helps users stay aware of their spending habits in real time.
+
+---
+
+### 📊 SmartPulse™
+
+* A **visual graph feature** showing users how well they’re sticking to their minimum and maximum monthly budget goals over time.
+* Uses a **pulse-style line chart** with color-coded indicators:
+
+  * 🟢 Under budget
+  * 🟡 Near maximum
+  * 🔴 Over budget
+* Helps users quickly identify trends in their financial behavior and adjust.
+
+---
+
+### 🎮 Gamification (NEW)
+
+SmartSpender now includes **gamification features** to make budgeting fun, rewarding, and motivating.
+
+**Why?**
+Because research shows people are more likely to stick to good financial habits if the experience is enjoyable and they feel rewarded.
+
+**Here’s what we’ve added:**
+
+#### 🏅 Badges System
+
+Earn **achievement badges** for reaching key financial milestones:
+
+* **On Target Badge** — Stay within budget for 3 consecutive days.
+* **Early Saver Badge** — Set your budget before any spending in a new month.
+* **Trend Bender Badge** — Reduce spending in any category by 20% compared to the previous month.
+
+Users can view earned badges in a dedicated **Badges Page**.
+
+---
+
+#### 🎮 Additional Gamification Elements:
+
+| 🎮 Feature                          | 📖 What it Does                                                                                 |
+| :---------------------------------- | :---------------------------------------------------------------------------------------------- |
+| **Real-Time Savings Feedback**      | Shows how much you’re saving compared to last month, instantly after each transaction.          |
+| **Progress Visualization**          | A progress bar that fills up as you save, with motivational messages based on percentage saved. |
+| **Points Reward System**            | Earn points for good budgeting: save 20% = +50pts, save 10-19% = +30pts, etc.                   |
+| **Personalized Financial Tips**     | Custom advice based on your spending habits to help you improve.                                |
+| **Achievement Celebration Dialogs** | Pops up a cheerful dialog with a trophy icon and your points when you hit a financial goal.     |
+
+**Example:**
+If you save R1,000 this month compared to R5,000 last month:
+
+* Progress bar fills to 75%
+* Earn 30 points
+* Dialog says: *“Great Saver! (+30 pts)”*
+
+---
+
+## 📚 Full Feature List
+
+| 📦 Category                   | ✅ Features                                                                        |
+| :---------------------------- | :-------------------------------------------------------------------------------- |
+| 🧑‍💻 **User Authentication** | Local login with username and password.                                           |
+| 📂 **Category Management**    | Create, edit, and delete expense categories.                                      |
+| 💸 **Expense Tracking**       | Add expenses with: date, time, category, description, and optional receipt photo. |
+| 🎯 **Goal Setting**           | Set monthly minimum and maximum spending limits.                                  |
+| 📅 **Reports & Insights**     | View expenses by date, see totals by category, and analyze spending patterns.     |
+| 💾 **Offline Storage**        | All data stored securely using RoomDB (SQLite) — no internet required.            |
+| 🖼️ **Image Handling**        | Attach receipt photos to expenses, stored privately in the app.                   |
+| 🎮 **Gamification**           | Badge rewards, points, progress bar, and savings tips.                            |
+| 🌗 **Dark/Light Mode**        | Switch between light and dark themes for visual comfort.                          |
+| 🔔 **Notification Center**    | Real-time alerts for budget reminders, overspending, and savings achievements.    |
+| 📊 **SmartPulse Visualizer**  | Graphical view of your monthly spending trends and goal adherence.                |
+
+---
+
+## ⚙️ Tech Stack
+
+| Tool / Library          | Purpose                                                     |
+| :---------------------- | :---------------------------------------------------------- |
+| **Kotlin**              | Core app development language                               |
+| **RoomDB (SQLite)**     | Offline database storage for all user data                  |
+| **XML**                 | Interface design layouts                                    |
+| **SharedPreferences**   | Store preferences like streaks, badges, and theme selection |
+| **RecyclerView**        | Display badges and transaction history lists                |
+| **NotificationManager** | Show financial alerts and achievement dialogs               |
+
+---
+
+## 📁 Project Structure
+
+```
 SmartSpender/
-│
-├── app/                   # Kotlin source code
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   └── res/
-│   │   │       ├── layout/        # XML layouts
-│   │   │       ├── drawable/      # Icons and images
-│   │   │       └── values/        # Themes, styles, strings
-│
-├── screenshots/           # UI and design references
-├── PGSL_Form.pdf          # Project form and learning outcomes
-├── demo/                  # Demo video and voice-over
-├── README.md              # This file
+├── app/
+│   └── src/main/
+│       ├── java/
+│       │   ├── activities/        # App screens (Dashboard, AddExpense, Badges, etc.)
+│       │   ├── database/          # RoomDB DAOs, Entities, and Database classes
+│       │   ├── helpers/           # Preference Manager, Badge Manager, etc.
+│       └── res/
+│           ├── layout/            # XML layout files
+│           ├── drawable/          # Images, icons, badge graphics
+│           └── values/            # Themes, colors, strings
+├── demo/                          # Demo video walkthrough
+├── screenshots/                   # App screenshots
+├── PGSL_Form.pdf                  # Formal project rubric
+├── README.md                      # This file
 ```
 
 ---
 
+## 📸 Screenshots
 
-
-## 🌐 Links
-
-* **📄 Canva Design:**
-  [SmartSpender Canva Design](https://www.canva.com/design/DAGnPg0fBAc/UbifJ4FxypdlHZ-OfvDntA/edit?utm_content=DAGnPg0fBAc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-* **🎥 YouTube Demo Video:**
-  [SmartSpender YouTube Demo](https://youtube.com/shorts/D0oT_n03Ess)
+*(See screenshots folder or demo video)*
 
 ---
-## 👥 Contributors
-| Name               | Student Number | 
-| ------------------ | -------------- | 
-| Phathisa Ndaliso   | ST10241408     | 
-| Lindokuhle Zwane   | ST10381088     | 
-| Musawenkosi Bhebhe | ST10405518     | 
 
+## 🎥 Video Demo & Design
 
-✅ **Smart Choices. Smart Savings.**
-Thank you for using **SmartSpender**!
+* 📽️ [YouTube App Demo Video](https://www.youtube.com/)
 
 ---
+
+## 👩‍💻 Contributors
+
+| Name               | Student Number |
+| :----------------- | :------------- |
+| Phathisa Ndaliso   | ST10241408     |
+| Lindokuhle Zwane   | ST10381088     |
+| Musawenkosi Bhebhe | ST10405518     |
+
+---
+
+## ✅ Smart Choices. Smart Savings.
+
+**Thank you for choosing SmartSpender — your personal budgeting companion made simple, local, and rewarding.**
+
+---
+
