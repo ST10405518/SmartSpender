@@ -69,7 +69,6 @@ SmartSpender now includes **gamification features** to make budgeting fun, rewar
 **Why?**
 Because research shows people are more likely to stick to good financial habits if the experience is enjoyable and they feel rewarded.
 
-**Here’s what we’ve added:**
 
 #### 🏅 Badges System
 
@@ -80,6 +79,8 @@ Earn **achievement badges** for reaching key financial milestones:
 * **Trend Bender Badge** — Reduce spending in any category by 20% compared to the previous month.
 
 Users can view earned badges in a dedicated **Badges Page**.
+
+Implemented the graph system so that the user can see the spending in a grapgh format 
 
 ---
 
@@ -164,6 +165,14 @@ SmartSpender/
 <img width="481" alt="add expense:dark" src="https://github.com/user-attachments/assets/422f2ffd-5154-481d-96b3-8b701647bbb8" />
 <img width="456" alt="rewards point: light" src="https://github.com/user-attachments/assets/44a97750-76de-4787-8343-6df45bc84ff8" />
 <img width="428" alt="rewards points: dark" src="https://github.com/user-attachments/assets/55165893-47e2-409f-b5ae-5309c8a21a03" />
+<img width="446" alt="Graph:light" src="https://github.com/user-attachments/assets/c773bcb9-fc1c-40b0-b979-439e4b122a9f" />
+<img width="449" alt="graph: dark " src="https://github.com/user-attachments/assets/9fbdea13-e644-4281-a9bb-6484c8533e7b" />
+<img width="420" alt="smart Pulse: Light" src="https://github.com/user-attachments/assets/39f541b3-8367-497b-86a9-97b7fd509a18" />
+<img width="450" alt="Smart Pulse: dark" src="https://github.com/user-attachments/assets/5539f335-4bff-4551-8afe-4521ebbc8aa8" />
+
+
+
+
 
 
 
