@@ -52,13 +52,13 @@ In this final project phase, we added exciting new features based on feedback an
 
 ### 📊 SmartPulse™
 
-* A **visual graph feature** showing users how well they’re sticking to their minimum and maximum monthly budget goals over time.
+* A **visual  feature** showing users how well they’re sticking to their minimum and maximum monthly budget goals over time.
 * Uses a **pulse-style line chart** with color-coded indicators:
 
   * 🟢 Under budget
   * 🟡 Near maximum
   * 🔴 Over budget
-* Helps users quickly identify trends in their financial behavior and adjust.
+
 
 ---
 
@@ -74,13 +74,9 @@ Because research shows people are more likely to stick to good financial habits 
 
 Earn **achievement badges** for reaching key financial milestones:
 
-* **On Target Badge** — Stay within budget for 3 consecutive days.
-* **Early Saver Badge** — Set your budget before any spending in a new month.
-* **Trend Bender Badge** — Reduce spending in any category by 20% compared to the previous month.
 
-Users can view earned badges in a dedicated **Badges Page**.
 
-Implemented the graph system so that the user can see the spending in a grapgh format 
+We also Implemented the graph system so that the user can see the spending in a grapgh format 
 
 ---
 
