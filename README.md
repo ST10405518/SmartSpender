@@ -156,6 +156,7 @@ SmartSpender/
 ---
 
 ## 📸 Screenshots
+<img width="454" alt="login:sign up light mode" src="https://github.com/user-attachments/assets/b322f8d4-2e21-4ed9-873a-6034a52ae50f" />
 
 *(See screenshots folder or demo video)*
 
